@@ -11,6 +11,7 @@ $mail = new PHPMailer();
 			$mail->IsSMTP();
 			$mail->Mailer = 'smtp';
 			$mail->SMTPAuth = true;
+			$mail->SMTPDebug  = 2; 
 			$mail->Host = 'smtp.gmail.com'; // "ssl://smtp.gmail.com" didn't worked
 			$mail->Port = 465;
 			$mail->SMTPSecure = 'ssl';
