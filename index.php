@@ -12,7 +12,7 @@ $mail = new PHPMailer();
 			$mail->Mailer = 'smtp';
 			$mail->SMTPAuth = true;
 			$mail->SMTPDebug  = 2; 
-			$mail->Host = 'smtp.gmail.com'; // "ssl://smtp.gmail.com" didn't worked
+			$mail->Host = 'smtp.yandex.com'; // "ssl://smtp.gmail.com" didn't worked
 			$mail->Port = 587;
 			$mail->SMTPSecure = 'tls';
 			// or try these settings (worked on XAMPP and WAMP):
@@ -21,7 +21,7 @@ $mail = new PHPMailer();
 			
 			
 			$mail->Username = "keerthana1903@gmail.com";
-			$mail->Password = "angelfishkk";
+			$mail->Password = "ANGELFISH";
 			
 			$mail->IsHTML(true); // if you are going to send HTML formatted emails
 			$mail->SingleTo = true; // if you want to send a same email to multiple users. multiple emails will be sent one-by-one.
